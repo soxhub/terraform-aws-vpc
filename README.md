@@ -13,7 +13,7 @@ In your `.tf` file, import the module:
 ```terraform
 module "vpc" {
   source  = "app.terraform.io/auditboard/vpc/aws"
-  version = "1.1.1"
+  version = "1.2.0"
 
   name        = "${local.name}"
   region      = "${local.region}"                     # e.g. us-west-2
