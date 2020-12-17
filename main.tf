@@ -1,7 +1,3 @@
-terraform {
-  required_version = ">= 0.12"
-}
-
 locals {
   region-to-az-count-map = {
     "us-west-1" = 3
